@@ -8,13 +8,14 @@ The program is intended to run on any PC without requiring Python or any of its 
 
 Since it was my first program to go into production, it lacks some features to improve its speed, intuitiveness, and modularity. Here are some points that could be improved in future versions:
 
-- **Read the printer IP address from an external file:**
+- **~~Read the printer IP address from an external file:~~**
+
   - This allows for easy updates if the printer is installed on another PC or if the PC's IP address changes, without needing to recompile the program.
+- **~~Create functions for checking the folder and sending the ZPL commands to the printer:~~**
 
-- **Create functions for checking the folder and sending the ZPL commands to the printer:**
   - This will make the code easier to understand and scale.
+- **~~Improve user messages' content and layout (line breaks):~~**
 
-- **Improve user messages' content and layout (line breaks):**
   - Enhance the clarity and readability of messages displayed to the user.
 
 ---
